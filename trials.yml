@@ -1,0 +1,51 @@
+'1':
+  epochs: 40
+  loss: mse
+  optimizer:
+    type: sgd
+    learning_rate: 0.01
+    momentum: 0.8
+'2':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.001
+'3':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: rmsprop
+    learning_rate: 0.001
+'4':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.01
+'5':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.05
+'6':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.005
+'7':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.0001
+'8':
+  epochs: 50
+  loss: mse
+  optimizer:
+    type: adam
+    learning_rate: 0.0005
+
+
